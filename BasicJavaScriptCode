@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caio O Retorno</title>
+    <style>
+        body {
+            background-color: rgb(126, 11, 11); 
+            color: white; /* comentario em css */
+            font: normal 20pt Arial;
+        }
+        p {
+            font: normal 18pt Arial;
+            
+        }
+    </style>
+</head>
+<body>
+   <h1>Copa do Mundo da Fifa QATAR 2022</h1> <!-- comentario em html -->
+   <p>Conheça as seleções já classificadas!</p>
+   <p>Brasil, Alemanha, Espanha, Portugal e outras seleções vem forte</p>
+   <script>
+      window.alert("Brasil pega grupo parecido com 2018")
+      window.confirm("Gostaria de responder uma pergunta?")
+      var seleção = window.prompt("Qual seleção irá ganhar a copa?") // comentar em script
+      window.alert("Com certeza " + seleção + " é uma das seleções favoritas.")
+   </script>
+</body>
+</html>
